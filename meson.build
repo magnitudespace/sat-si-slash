@@ -29,3 +29,8 @@ slash_dep = declare_dependency(
 	include_directories : slash_inc,
 	link_with : slash_lib
 )
+
+slash_dep_whole = declare_dependency(
+	include_directories : slash_inc,
+	link_whole : slash_lib,
+)
