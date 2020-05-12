@@ -1,0 +1,1 @@
+option('libc', type: 'boolean', value: true, description: 'Add libc as a dependency.')
